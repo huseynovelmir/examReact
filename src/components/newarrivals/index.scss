@@ -1,0 +1,57 @@
+.newarrivals {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  .cards {
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .card {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 350px;
+      height: 350px;
+      a {
+        background-color: white;
+        padding: 7px 12px;
+        font-size: 22px;
+        font-weight: 600;
+      }
+    }
+    .card1 {
+      background: url(../../assets/images/girl.webp);
+      background-repeat: no-repeat;
+    }
+
+    .card2 {
+      background: url(../../assets/images/bags.webp);
+      background-repeat: no-repeat;
+    }
+    .card3 {
+      background: url(../../assets/images/man.webp);
+      background-repeat: no-repeat;
+    }
+  }
+  h1 {
+    font-size: 40px;
+    padding: 10px;
+    border-bottom: 1px red solid;
+  }
+  .buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    button {
+      border: 1px solid grey;
+      border-radius: 2px;
+      padding: 5px 7px;
+    }
+  }
+}
